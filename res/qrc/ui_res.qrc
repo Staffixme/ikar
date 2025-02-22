@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>../img/send_white.png</file>
+    <file>../img/add.png</file>
+    <file>../img/arrow.png</file>
+    <file>../img/delete.png</file>
+    <file>../img/edit_icon.png</file>
+    <file>../img/edit_icon_active.png</file>
+    <file>../img/eye_icon.png</file>
+    <file>../img/eye_icon_active.png</file>
+    <file>../img/filter.png</file>
+    <file>../img/reload.png</file>
+    <file>../img/send.png</file>
+    <file>../img/database_icon_active.png</file>
+    <file>../img/home_icon_active.png</file>
+    <file>../img/messenger_icon_active.png</file>
+    <file>../img/settings_icon_active.png</file>
+    <file>../img/todo_icon_active.png</file>
+    <file>../img/database_icon.png</file>
+    <file>../img/home_icon.png</file>
+    <file>../img/messenger_icon.png</file>
+    <file>../img/settings_icon.png</file>
+    <file>../img/todo_icon.png</file>
+  </qresource>
+</RCC>
