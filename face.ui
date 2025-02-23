@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cilantromes</class>
+ <widget class="QWidget" name="cilantromes">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>708</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cilantromes</string>
+  </property>
+  <widget class="QWidget" name="sign" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>711</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(54, 54, 54);
+
+</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>130</y>
+      <width>251</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align: center;
+color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Вход/Регистрация&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>318</x>
+      <y>241</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #3e3e3e;
+border: 2px inset lightblue;
+color: #ffffff;
+text-align: center;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>272</x>
+      <y>207</y>
+      <width>34</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align: center;
+color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Логин:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>271</x>
+      <y>241</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align: center;
+color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Пароль:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login">
+    <property name="geometry">
+     <rect>
+      <x>318</x>
+      <y>207</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #3e3e3e;
+border: 2px inset lightblue;
+color: #ffffff;
+text-align: center;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="getlog">
+    <property name="geometry">
+     <rect>
+      <x>318</x>
+      <y>320</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:  #28899B;
+    color: white;
+	border: 3px inset lightblue;
+    border-radius: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+QPushButton:hover {
+    background-color: #017186;
+    transform: scale(1.05);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Вход</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>280</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align: center;
+color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="getregistr">
+    <property name="geometry">
+     <rect>
+      <x>318</x>
+      <y>360</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:  #28899B;
+    color: white;
+	border: 3px inset lightblue;
+    border-radius: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+QPushButton:hover {
+    background-color: #017186;
+    transform: scale(1.05);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Регистрация</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>480</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:  #28899B;
+    color: white;
+	border:2px inset lightblue;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+QPushButton:hover {
+    background-color: #017186;
+    transform: scale(1.05);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>отправить</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="peoplelist">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>161</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{
+background-color: #3e3e3e;
+color: #ffffff;
+border: 2px inset lightblue;}
+QListWidget::item{
+border: 1px groove rgb(14, 112, 154);
+color: #ffffff;
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="messagelist">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>511</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #3e3e3e;
+border: 2px solid #4e4e4e;
+color: #ffffff;
+border: 2px inset lightblue;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="message">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>480</y>
+      <width>431</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #3e3e3e;
+border: 2px solid #4e4e4e;
+color: #ffffff;
+text-align: center;
+border: 2px inset lightblue;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>410</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:  #28899B;
+    color: white;
+	border: 3px inset lightblue;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+QPushButton:hover {
+    background-color: #017186;
+    transform: scale(1.05);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>добавить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delet">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>410</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:  #28899B;
+    color: white;
+	border: 3px inset lightblue;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+QPushButton:hover {
+    background-color: #017186;
+    transform: scale(1.05);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>удалить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align: center;
+color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>add</zorder>
+   <zorder>delet</zorder>
+   <zorder>peoplelist</zorder>
+   <zorder>messagelist</zorder>
+   <zorder>message</zorder>
+   <zorder>label</zorder>
+   <zorder>label_3</zorder>
+   <zorder>getlog</zorder>
+   <zorder>label_2</zorder>
+   <zorder>error</zorder>
+   <zorder>login</zorder>
+   <zorder>password</zorder>
+   <zorder>send</zorder>
+   <zorder>getregistr</zorder>
+   <zorder>error1</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
