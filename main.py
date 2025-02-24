@@ -34,7 +34,7 @@ class TableManager:
 
     def set_table(self):
         try:
-            table = requests.get("...").json()
+            table = {"Table": {"Columns": ["id", "Название", "Цена", "Количество"], "Items": [[1, "Вода"]]}}
             print(table)
             self.table.setColumnCount(len(table["Table"]["Columns"]))
             self.table.setHorizontalHeaderLabels(table["Table"]["Columns"])
